@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Web Design Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+<style type="text/css">
+	@media only screen and (min-width: 480px) {
+  .col-sm-6, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+}
+.container {
+  background-color:black;
+  height:500px;
+  text-align: center;
+  width: 100%;
+}
+.row {
+  background-color:yello;
+  height:100%;
+  font-size: 20px;
+}
+.col {
+  height:100%;
+  padding: 35px;
+  box-sizing:border-box;
+}
+.col-1 {
+  background-color:red;
+}
+.col-2 {
+  background-color:green;
+}
+</style>
+<div class="container">
+	<div class="col-md-12 col-sm-12 row">
+		<div class="col-md-6 col-sm-12 col-1 col">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<div class="col-md-6 col-sm-12 col-2 col">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>	
+</div>
+</body>
+</html>
